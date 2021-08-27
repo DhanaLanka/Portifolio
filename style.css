@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #6ee7e7;
+    --another-color: #8e24d4;
+    --off-white: #E2E8F0;
+    --foot-color: #1A202C;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/**container**/
+.fluid-container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.center-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/**Links**/
+.link {
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+.prime-color {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.second-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 1rem 1rem;
+    /**border:1px solid red;
+    color:brown;**/
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.navigation .id {
+    font-weight: bolder;
+}
+
+.navigation .nav-pill {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/**HEADER**/
+.image {
+    padding: 2rem;
+}
+
+.image .in-image {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.image .img-head {
+    text-align: center;
+    color: var(--another-color);
+    text-align: center;
+}
+
+.image .img-head .img-hlt {
+    color: var(--primary-color);
+}
+
+/**section**/
+.sec h1 {
+    text-align: center;
+}
+
+.sec {
+    padding: 1rem;
+}
+
+.off {
+    background-color: var(--off-white);
+}
+
+/**Footer**/
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    margin-inline-start: none;
+}
