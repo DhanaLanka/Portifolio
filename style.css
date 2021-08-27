@@ -33,7 +33,7 @@ hr {
     text-decoration: none;
 }
 
-.prime-color {
+.prime-link {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
@@ -106,7 +106,7 @@ hr {
 }
 
 .sec {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .off {
@@ -120,6 +120,9 @@ hr {
     color: white;
     text-align: center;
     border-bottom-left-radius: 1rem;
+}
+.footer .footer-head{
+    font-weight: bold;
 }
 
 .footer .link {
