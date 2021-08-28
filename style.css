@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
     margin: 0px;
+    background-image: url("/image/third.jpg");
 }
 
 :root {
-    --primary-color: #6ee7e7;
-    --another-color: #8e24d4;
+    --primary-color: #ac0428;
+    --another-color: #1a1715;
     --off-white: #E2E8F0;
-    --foot-color: #1A202C;
+    --foot-color: #aaabaf;
+    --blog-color:#ee9c54;
 }
 
 hr {
@@ -40,9 +42,9 @@ hr {
 }
 
 .second-link {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
+    color:black;
+    border: 3px solid var(--primary-color);
+    border-radius: 1rem;
 }
 
 .list {
@@ -64,6 +66,7 @@ hr {
 }
 
 .navigation .id {
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
@@ -93,40 +96,50 @@ hr {
 .image .img-head {
     text-align: center;
     color: var(--another-color);
-    text-align: center;
 }
 
 .image .img-head .img-hlt {
     color: var(--primary-color);
 }
+.image .size{
+    max-width: 250px;
+}
 
 /**section**/
-.sec h1 {
+.sec h1 h2{
     text-align: center;
 }
 
 .sec {
-    padding: 2rem;
+    padding: 2.5rem;
+    text-align: center;
 }
 
 .off {
     background-color: var(--off-white);
+    padding:2rem;
+}
+.spl{
+    background-color:var(--blog-color);
+    padding:0.5rem;
 }
 
 /**Footer**/
 .footer {
-    background-color: var(--primary-color);
+    background-color: var(--foot-color);
     padding: 2rem;
-    color: white;
+    color: black;
     text-align: center;
     border-bottom-left-radius: 1rem;
+    margin-top: 0.1rem;
+    margin-right: none;
 }
 .footer .footer-head{
     font-weight: bold;
 }
 
 .footer .link {
-    color: white;
+    color: black;
 }
 
 .footer ul {
